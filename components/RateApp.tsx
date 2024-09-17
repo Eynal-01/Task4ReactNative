@@ -9,9 +9,10 @@ export const RateApp = () => {
         <View style={styles.starCont}>
            
 </View>
-        <Text style={styles.headTxt}></Text>
-        <Text style={styles.appInfo}></Text>
-        <Text style={styles.likeApp}></Text>
+        <Text style={styles.headTxt}>Rate our app</Text>
+        <Text style={styles.appInfo}>Consequat velit qui adipisicing sunt do reprehenderit ad laborum tempor ullamco exercitation. Ullamco tempor adipisicing et voluptate duis sit esse aliqua esse ex dolore esse. Consequat velit qui adipisicing sunt.</Text>
+        <Text style={styles.likeApp}>I love it!</Text>
+        <Text style={styles.dont}>Don’t like the app? Let us know.</Text>
         </View>
     </View>
   )

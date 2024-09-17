@@ -416,12 +416,46 @@ export const styles = StyleSheet.create({
     width:"90%",
     height:470,
     backgroundColor:"white",
-    borderRadius:10
+    borderRadius:10,
+    padding:30
    },
    starCont:{
     width:"80%",
     backgroundColor:"red",
     height:50,
     margin:"auto"
+   },
+   headTxt:{
+    fontSize:35,
+    fontWeight:"600",
+    margin:"auto"
+   },
+   appInfo:{
+    fontSize:17,
+    fontWeight:"400",
+    margin:"auto",
+    textAlign:"center"
+   },
+   likeApp:{
+    textAlign:"center",
+    fontSize:17,
+    width:320,
+    height:55,
+    backgroundColor:"rgb(93, 176, 117)",
+    borderRadius:30,
+    margin:"auto",
+    marginLeft:-5,
+    paddingTop:15,
+    color:"white"
+   },
+   dont:{
+    width:320,
+    height:20,
+    color:"rgb(93, 176, 117)",
+    fontSize:17,
+    fontWeight:600,
+    textAlign:"center",
+    margin:"auto",
+    left:60
    }
 });
